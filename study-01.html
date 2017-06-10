@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>相对定位与绝对定位</title>
+	<style type="text/css">
+	 	#test1{
+	 		width: 500px;
+	 		height: 500px;
+	 		background-color: black;
+	 	}
+	 	p{
+	 		margin: 0px;
+	 		padding: 0px;
+	 	}
+	 	#p1{
+	 		width: 100px;
+	 		height: 100px;
+	 		background-color: red;
+	 		position: relative;
+	 		/*top: 20px;
+	 		left: 20px;*/
+	 		right: 20px;
+	 		bottom: 20px;
+	 	}
+	 	#p2{
+	 		width: 100px;
+	 		height: 100px;
+	 		background-color: green;
+	 	}
+	 	#test2{
+	 		width: 500px;
+	 		height: 500px;
+	 		background-color: gray;
+	 		position: relative;
+	 	}
+	 	#p3{
+	 		width: 100px;
+	 		height: 100px;
+	 		background-color: yellow;
+	 		position: absolute;
+	 		top: 50px;
+	 		left: 50px;
+	 	}
+	</style>
+</head>
+<body>
+	<div id="test1">
+		<p id="p1">相对定位是指元素在其正常的位置，偏移某些像素</p>
+		<p id="p2"></p>
+	</div>
+	<div id="test2">
+		用绝对定位时，父元素要求有position属性才行，否则将依据父父，父的父的父。。。body
+		哪个祖先有position属性，相对哪个祖先，如果都没有，相对于body
+		<p id="p3">我要绝对定位，绝对定位是指相对于父元素的top、left、right、bottom来定位</p>
+	</div>
+</body>
+</html>

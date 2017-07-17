@@ -1,0 +1,372 @@
+		#container{
+			/*width: 1325px;*/
+			height: 5490px;
+			margin: 0 auto;
+		}
+		#header{
+			
+		}
+		/*#daohang{
+			position: fixed;
+			z-index: 1;
+		}*/
+		#daohang li{
+			color: rgb(157,157,157);
+			font-family: "微软雅黑" sans-serif；
+		}
+		.word:hover{
+			color:white;
+			text-decoration: none;
+		}
+		#title{
+			width: 1170px;
+			height: 299px;
+			padding: 0 15px;
+			margin: 42px 62px 0 62px;
+			background: purple;
+			position: absolute;
+			top:40px;
+			left: 3%;
+			text-align: center;
+			text-shadow: rgb(0,0,0);
+
+		}
+		#down{
+			margin-top:40px;
+		}
+		h1{
+			color: rgb(255,255,255);
+			font-size: 100px;
+			font-weight: bold;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif；
+
+			letter-spacing: -2px;
+			line-height: 100px;
+			margin: 20px 0 10px 0;
+		}
+		#wordone{
+			color: rgb(255,255,255);
+			font-size: 30px;
+			font-weight: 200;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif；
+			letter-spacing: -2px;
+			line-height: 100px;
+			margin: 20px 0 10px 0;
+		}
+		#trap{
+			width: 290.05px;
+			height: 54px;
+			padding: 13px 35px 17px 35px;
+			text-decoration: none;
+			/*background: blue;*/
+			/*background-size: 500px 100px;*/
+		}
+		#addone{
+			color: rgb(255,255,255);
+			margin-top: 10px;
+		}
+		#click:hover{
+			color: rgb(255,255,255);
+		}
+		#chinessweb{
+			float: left;
+			font-size: 18px;
+			width: 163.67px;
+			height: 42px;
+			padding: 0 15px;
+			margin-left: 45px;
+			line-height: 45px;
+		}
+		#chinesstwo{
+			float: left;
+			width: 155.75px;
+			height: 42px;
+			padding: 11px 15px;
+			margin-left: -15px;
+		}
+		#chinessthree{
+			float: left;
+			width: 155.75px;
+			height: 42px;
+			padding: 11px 15px;
+			margin-left: -15px;
+		}
+		#chinessfour{
+			float: left;
+			width: 147.22px;
+			height: 42px;
+			padding: 11px 15px;
+			margin-left: -15px;
+		}
+		#chinessfive{
+			float: left;
+			width: 91.2px;
+			height: 42px;
+			padding: 11px 15px;
+			margin-left: -15px;
+		}
+		#chinesssix{
+			float: left;
+			width: 96.38px;
+			height: 42px;
+			padding: 11px 15px;
+			margin-left: -15px;
+		}
+		#chinessseven{
+			float: left;
+			width: 86px;
+			height: 42px;
+			padding: 11px 15px;
+			margin-left: -15px;
+		}
+		#chinesseight{
+			float: right;
+			width: 58px;
+			height: 42px;
+			padding: 11px 15px;
+			margin-right: 45px;
+		}
+		#navigation{
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			width: 100%;
+			height:43px;
+			background-color: rgb(34,34,34);
+			border-bottom: 1px solid rgb(8,8,8)
+
+		}
+		#bigtrap{
+			height:542px;
+			background: purple;
+		}
+		#weibo{
+			height: 54px;
+			background: rgb(245,245,245);
+			border-top: 1px solid rgb(255,255,255);
+			border-bottom: 1px solid rgb(221,221,221);
+			font-size: 14px;
+			position: relative;
+
+		}
+		#wobo{
+			/*display: block;
+			margin-top: -5px;
+			float: left;*/
+			position: relative;
+			top: -8px;
+			left: 33%;
+		}
+		#woboo{
+			
+			
+			position: relative;
+			top: -8px;
+			left:36%;
+		}
+		#woboo:hover{
+			color: red;
+			background:url(/Users/jinting/Downloads/weibo.png);
+			background-size: 33px 28px;
+			background-repeat: no-repeat;
+			background-position: 3px 10px;
+		}
+		#pic{
+			width: 33px;
+			height: 28px;
+			position: relative;
+			top: 2px;
+			left: 33%;
+			/*margin-top: 12px;
+			margin-left: 440px;*/
+		}
+		#shu{
+			width: 2px;
+			height: 15px;
+			background: #CFCFCF;
+			float: left;
+			margin: -25px 46.5%;
+			/*position: relative;
+			top: 20px;
+			left: 47%;*/
+		}
+		#pict{
+			width: 33px;
+			height: 28px;
+			margin-top: 12px;
+			margin-left: 10px;
+			position: relative;
+			left: 36%;
+
+		}
+		#main{
+			
+			height: 4588px;
+			/*border: 1px solid red;*/
+			/*padding: 0 15px;*/
+			margin: 0 5%;
+		}
+		#up{
+			width: 60%;
+			height: 86px;
+			padding-bottom: 5px;
+			border-bottom: 1px solid rgb(238,238,238);
+			margin: 60px 228px 20px 228px;
+			
+		}
+		#word{
+			font-weight: 500px;
+			font-size:42px;
+			line-height: 46.2px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif；
+			font-color:rgb(51,51,51);
+			letter-spacing: -1px;
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		#add{
+			font-weight: 200px;
+			font-size:14px;
+			line-height: 20px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif；
+			font-color:rgb(51,51,51);
+			letter-spacing: -1px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		#twe{
+			/*border: 1px solid red;*/
+		}
+		.twelve{
+			width: 20%;
+			height: 336px;
+			float: left;
+			padding: 4px;
+			border: 1px solid rgb(221,221,221);
+
+			margin-top: 20px;
+			margin-left: 3.2%;
+
+		}
+		.lazy{
+
+		}
+		.bluu{
+			position:relative;
+			left: 4%;
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 26.4px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif；
+		}
+		.caption{
+			/*width: 234.5px;
+			height: 182px
+			padding:19px;*/
+			margin: 20px 0;
+		}
+		.at{
+			position: relative;
+			left: 33%;
+			font-size: 15.6px;
+			color: rgb(119,119,119);
+		}
+		.code{
+			font-size:14px;
+			line-height: 20px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif；
+			font-color:rgb(85，85，85);
+			text-align: center;
+		}
+		#footer{
+			height: 189px;
+			padding: 20px 0 30px 0;
+			margin-top: 20px;
+			border-top: 1px solid rgb(229,229,229);
+		}
+		#botup{
+			height: 120px;
+			margin: 0 100px 30px 100px;
+		}
+		#botleft{
+			width: 50%;
+			height: 103px;
+			padding: 0 15px;
+			margin-top: 30px;
+			margin-left: 5px;
+			float: left;
+		}
+		#botright{
+			width: 46%;
+			height: 103px;
+			float: left;
+		}
+		.four{
+			padding: 0 15px;
+			margin: 0 16px;
+			float: left;
+		}
+		#botunder{
+			height: 28px;
+			/*position: 30px;*/
+			margin: 0 30px;
+			border: 1px solid rgb(229.229.229)
+		}
+		h4{
+			color: rgb(86,61,124);
+			margin: 10px 0;
+			font-weight: 400;
+			font-size: 16px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			display: block;
+		}
+		.about{
+			font-size: 14px;
+			font-family: Verdana,Arial,sans-serif;
+			color: rgb(119,119,119);
+			line-height: 1.5pc;
+		}
+		#line{
+			clear: both;
+			width: 70%;
+			height: 1px;
+			background: rgb(229,229,229);
+			margin: 20px auto;
+			position: relative;
+			top: 30px;
+
+		}
+		#shuu{
+			width: 2px;
+			height: 15px;
+			background: #CFCFCF;
+			float: left;
+			margin: 20px 0 0 20px;
+			position: relative;
+			top: 13px;
+			left: 30%;
+
+		}
+		.police{
+			float: left;
+			line-height: 18.5714;
+			font-size: 13px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			position: relative;
+			top: -80px;
+			left: 31%;
+			color: rgb(85,85,85);
+		}
+
+
+
+
+
+
+
+
+
+
+

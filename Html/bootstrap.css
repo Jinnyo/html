@@ -23,7 +23,7 @@
 			height: 299px;
 			padding: 0 15px;
 			margin: 42px 62px 0 62px;
-			background: purple;
+			/*background: purple;*/
 			position: absolute;
 			top:40px;
 			left: 3%;
@@ -61,8 +61,17 @@
 			/*background: blue;*/
 			/*background-size: 500px 100px;*/
 		}
-		#addone{
-			color: rgb(255,255,255);
+		#btn{
+			outline: none;
+			width: 300px;
+			height: 50px;
+			border: none;
+			font-size: 16px;
+			color: white;
+			background: #337ab7;
+			border-radius: 6px;
+			box-shadow: inset 0 -4px 0 #2a6496;
+
 			margin-top: 10px;
 		}
 		#click:hover{
@@ -139,7 +148,7 @@
 		}
 		#bigtrap{
 			height:542px;
-			background: purple;
+			background: linear-gradient(45deg,#020031 0,#6d3353 100%);
 		}
 		#weibo{
 			height: 54px;
@@ -190,6 +199,9 @@
 			/*position: relative;
 			top: 20px;
 			left: 47%;*/
+		}
+		#pict:hover{
+			background: url(/Users/jinting/Downloads/weibo.png);
 		}
 		#pict{
 			width: 33px;
@@ -250,6 +262,10 @@
 			margin-left: 3.2%;
 
 		}
+		.test{
+			text-align: center;
+			color: #337ab7;
+		}
 		.lazy{
 
 		}
@@ -262,9 +278,7 @@
 			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif；
 		}
 		.caption{
-			/*width: 234.5px;
-			height: 182px
-			padding:19px;*/
+			
 			margin: 20px 0;
 		}
 		.at{
